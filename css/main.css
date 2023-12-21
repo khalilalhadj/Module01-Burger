@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -40,7 +46,7 @@ header {
 
 .header-logo {
     display: block;
-    background-image: url(../img/Logo.svg);
+    background-image: url(../img/logo.svg);
     width: 176px;
     height: 56px;
     background-repeat: no-repeat;
@@ -48,7 +54,7 @@ header {
 }
 
 .header-nav {
-    list-style-type: none;
+
     display: flex;
     padding-left: 0;
     gap: 46px;
@@ -208,7 +214,6 @@ header {
     font-family: 'Open Sans', sans-serif;
     max-width: 320px;
     color: #FAF9F9;
-    font-family: Open Sans;
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 35px;
@@ -257,6 +262,7 @@ header {
     background-size: 12.79px 7.75px;
     background-repeat: no-repeat;
     background-position: 89% center;
+    cursor: pointer;
 }
 
 .menu-grid {
@@ -319,6 +325,7 @@ header {
     color: #FBB731;
     background-color: #1E2F40;
     text-shadow: #dedede 1px 0 10px;
+    background-image: url(../img/cart-menu-dark.svg);
 }
 
 
@@ -332,6 +339,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 51px 20px;
+    margin-bottom: 138px;
 }
 
 .menu-addit-title {
@@ -340,4 +348,66 @@ header {
     text-transform: uppercase;
     color: #1E2b49;
     margin-bottom: 36px;
+}
+
+.footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 106px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+
+.footer-item {
+    flex: 0 0 auto;
+}
+
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+.footer-item li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.footer-tel ul {
+    font-size: 20px;
+    color: #FBB731;
+    font-weight: 900;
+}
+
+.footer-tel li {
+    margin-bottom: 12px;
 }
