@@ -238,7 +238,7 @@ header {
 
 .banner-link:hover {
     color: #FBB731;
-    background-color: #1E2F40;
+    background-color: transparent;
     border: 1px solid #FBB731;
     text-shadow: #dedede 1px 0 10px;
 }
