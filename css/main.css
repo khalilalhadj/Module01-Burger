@@ -192,7 +192,7 @@ header {
 .banner-box {
     background-image: url(../img/tasty-beef-burger.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: 0 center;
     color: #dedede;
     padding: 64px 0 118px 101px;
     margin-bottom: 83px;
@@ -609,4 +609,53 @@ header {
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 10px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 738px;
+    }
+
+    .header-logo {
+        width: 150px;
+        height: 48px;
+        background-size: contain;
+    }
+
+    .header-nav {
+        gap: 22px;
+    }
+
+    .header-item {
+        flex-basis: 75.5%;
+    }
+
+    .bg {
+        margin-bottom: 72px;
+    }
+
+    .banner-box {
+        background-position: -80px center;
+        padding: 64px 0 118px 40px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .footer-box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+
+    .item-4 {
+        grid-column-start: 2;
+    }
+
+
 }
