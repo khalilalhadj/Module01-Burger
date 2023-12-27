@@ -195,7 +195,7 @@ header {
     background-position: center center;
     color: #dedede;
     padding: 64px 0 118px 101px;
-    margin-bottom: 105px;
+    margin-bottom: 83px;
 }
 
 .banner-title {
@@ -234,6 +234,7 @@ header {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    transition: 0.2s;
 }
 
 .banner-link:hover {
@@ -241,6 +242,7 @@ header {
     background-color: transparent;
     border: 1px solid #FBB731;
     text-shadow: #dedede 1px 0 10px;
+    transform: scale(2);
 }
 
 .menu-header {
@@ -248,6 +250,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 37px;
+    padding-top: 20px;
 }
 
 .menu-title {
@@ -326,6 +329,7 @@ header {
     border-radius: 5px;
     background-color: #FBB731;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .menu-grid-btn:hover {
@@ -429,6 +433,33 @@ header {
     color: #fff;
 }
 
+.button-up {
+    background-color: #FBB731;
+    border: 1px solid #FBB731;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1E2F40;
+    padding: 4px 19px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.button-up.hidden {
+    opacity: 0;
+}
+
+.button-up.visible {
+    opacity: 1;
+}
+
+.button-up:hover {
+    color: #FBB731;
+    background-color: #1E2F40;
+    text-shadow: #dedede 1px 0 10px;
+}
 
 /* styles index */
 
@@ -486,6 +517,7 @@ header {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    transition: 0.3s;
 }
 
 .content-link:hover,
