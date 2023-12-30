@@ -619,7 +619,7 @@ header {
 .burger {
     width: 34px;
     height: 22px;
-    background-image: url(/img/burger.svg);
+    background-image: url(../img/burger.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: contain;
