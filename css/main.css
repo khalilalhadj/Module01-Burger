@@ -728,12 +728,71 @@ header {
 }
 
 @media (max-width: 765px) {
+
     nav {
         display: none;
     }
 
     .header {
         gap: 21px;
+    }
+
+    .footer-box {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        /* Автоматическое размещение в колонку */
+        grid-auto-flow: column;
+    }
+}
+
+@media (max-width: 620px) {
+    .banner-box {
+        background-position: -170px center;
+    }
+
+    .banner-text {
+        max-width: 270px;
+    }
+
+    .menu-grid-item {
+        min-width: 140px;
+    }
+
+    .menu-grid-cover {
+        height: 201px;
+    }
+
+    .menu-grid-price {
+        font-size: 16px;
+    }
+
+    .menu-title {
+        font-size: 27px;
+    }
+
+    .menu-addit-title {
+        font-size: 27px;
+    }
+
+    .menu-select {
+        flex-basis: 200px;
+    }
+
+    .menu-grid-title {
+        font-size: 13px;
+    }
+
+    .menu-grid-btn {
+        padding: 9px 23px 9px 45px;
+    }
+
+    .footer-box {
+        gap: 40px;
+    }
+
+    .item-4 {
+        position: absolute;
+        right: 15px;
     }
 }
 
@@ -749,6 +808,8 @@ header {
     .discription {
         font-size: 12px;
     }
+
+
 
 }
 
